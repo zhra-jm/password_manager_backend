@@ -1,5 +1,3 @@
-from typing import List, Union
-
 from pydantic import BaseModel
 
 
@@ -22,7 +20,7 @@ class BasePassword(BaseModel):
 
 
 class PasswordCreate(BasePassword):
-    user_name: str
+    username: str
     password: str
 
 

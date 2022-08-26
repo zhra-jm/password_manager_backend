@@ -14,7 +14,7 @@ class Password(Base):
     __tablename__ = "password"
 
     id = Column(Integer, primary_key=True, index=True)
-    name = Column(String, primary_key=True, index=True)
+    name = Column(String)
     username = Column(String)
     password = Column(String)
     url = Column(String)
